@@ -74,7 +74,7 @@ The results are shown below:
 ```
 python -m visdom.server
 
-python train.py
+python train_espcn.py
 
 
 Store the caltech dataset in the following folder:
