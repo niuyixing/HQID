@@ -13,7 +13,7 @@ A PyTorch implementation of NPIQE based on IEEE ACCESS paper
 git clone https://github.com/niuyixing/NPIQE/edit/main/
 cd InternImage
 ```
-## super-resolution
+## HCycleGAN
 Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
 Our Style-transfer code is developed on top of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 ### Data Preparation
