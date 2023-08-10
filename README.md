@@ -94,7 +94,7 @@ python test_image.py
 ## Style-transfer
 
 Store the caltech and cityperson dataset in the following folder:
-
+```
 *DATA_PATH
 	*train
 		*SRF_3
