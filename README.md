@@ -11,7 +11,6 @@ A PyTorch implementation of NPIQE based on IEEE ACCESS paper
 
 ```bash
 git clone https://github.com/niuyixing/NPIQE/edit/main/
-cd InternImage
 ```
 ## HCycleGAN
 ### Data Preparation
