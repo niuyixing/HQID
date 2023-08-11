@@ -3,7 +3,7 @@ This study proposed a High-Quality Integration Domain framework for pedestrian r
 
 
 
-A PyTorch implementation of NPIQE based on IEEE ACCESS paper 
+A PyTorch implementation of HQID based on IEEE ACCESS paper 
 [Multi-Source Domain Fusion Cross-Domain Pedestrian Recognition Based on High-Quality Intermediate Domains](https://ieeexplore.ieee.org/document/10188821?source=authoralert).
 ### Install
 
