@@ -157,7 +157,7 @@ python npiqe.py --path="dataset\"
 ```
 If you don't want to do ssim screening to generate deletion ratios, adjust the deletion ratios yourself.
 ```bash
-python npiqe.py --path="dataset\"
+python npiqe_no_ssim.py --path="dataset\"
 ```
 Copy the original dataset without replacement into the dataset folder.
 
