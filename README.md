@@ -10,7 +10,7 @@ A PyTorch implementation of HQID based on IEEE ACCESS paper
 - Clone this repo:
 
 ```bash
-git clone https://github.com/niuyixing/NPIQE/edit/main/
+git clone https://github.com/niuyixing/NPIQE/main.git
 ```
 ## HCycleGAN
 ### Data Preparation
@@ -160,6 +160,34 @@ If you don't want to do ssim screening to generate deletion ratios, adjust the d
 python npiqe_no_ssim.py --path="dataset\"
 ```
 Copy the original dataset without replacement into the dataset folder.
+## Pedestrian detection
+Our Style-transfer code is developed on top of [CSP](https://github.com/liuwei16/CSP).
+Restore the processed image to the original dataset format：
+
+```bash
+python movecity.py
+python movecaltech.py
+```
+If we want to migrate citypersons to caltech
+
+```bash
+python train_city.py
+```
+Copy the training output to the folder data/cache/caltech/test
+
+```bash
+python test_caltech.py
+```
+If we want to migrate caltech to citypersons
+
+```bash
+python train_city.py
+```
+Copy the training output to the folder data/cache/caltech/test
+
+```bash
+python test_caltech.py
+```
 
 ## Citation
 If you think our work is useful in your research, please consider citing:
