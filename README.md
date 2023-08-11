@@ -10,7 +10,7 @@ A PyTorch implementation of HQID based on IEEE ACCESS paper
 - Clone this repo:
 
 ```bash
-git clone https://github.com/niuyixing/NPIQE/main.git
+git clone https://github.com/niuyixing/HQID/main.git
 ```
 ## HCycleGAN
 ### Data Preparation
