@@ -146,10 +146,10 @@ In writing
 ## Citation
 If you think our work is useful in your research, please consider citing:
 ```
-@inproceedings{liu2018high,
-  title={High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection},
-  author={Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, Yinan Yu},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2019}
+@inproceedings{niu2023,
+  title={Multi-Source Domain Fusion Cross-Domain Pedestrian Recognition Based on High-Quality Intermediate Domains},
+  author={Yixing Niu; Wansheng Cheng; Yushan Lai; Hongzhi Zhang; Mingrui Cao; Kang Cao; Song Fan},
+  booktitle={IEEE Access},
+  year={2023}
 }
 ```
