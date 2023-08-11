@@ -136,7 +136,6 @@ Store the caltech and cityperson dataset in the following folder:
 ```bash
 python train_CycleGAN.py --dataroot try  --name try  --model cycle_gan --pool_size 50 --no_dropout  --crop_size 640  --preprocess crop 
 python test_CycleGAN.py --dataroot datasets/try   --name try  --model cycle_gan --phase test --no_dropout --preprocess none --load_size 640
-cd InternImage
 ```
 
 ## NPIQE
