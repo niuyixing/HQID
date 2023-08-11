@@ -150,8 +150,16 @@ python test_CycleGAN.py --dataroot datasets/try   --name try  --model cycle_gan 
 ```
 
 ## NPIQE
+Storing images after style migration into dataset：
 
-In writing
+```bash
+python npiqe.py --path="dataset\"
+```
+If you don't want to do ssim screening to generate deletion ratios, adjust the deletion ratios yourself.
+```bash
+python npiqe.py --path="dataset\"
+```
+Copy the original dataset without replacement into the dataset folder.
 
 ## Citation
 If you think our work is useful in your research, please consider citing:
