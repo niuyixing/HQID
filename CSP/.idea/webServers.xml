@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b1f6599-ab57-4012-91ad-b2d3cd3cea7c" name="py27">
+        <fileTransfer accessType="SFTP" host="region-3.seetacloud.com" port="14393" sshConfigId="84836bf7-69bc-4445-9146-393c58003d39" sshConfig="root@region-3.seetacloud.com:14393 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
