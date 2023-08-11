@@ -63,9 +63,13 @@ Store the caltech dataset in the following folder:
         		*set06_V000_I00029.jpg
         		*...
 ```
+
+Make training data
+
 ```
 python data_utils.py
 ```
+
 The results are shown below:
 
 ```
@@ -87,6 +91,9 @@ The results are shown below:
             		*set06_V000_I00029.jpg
         		*...
 ```
+
+Start training
+
 ```
 python -m visdom.server
 
@@ -94,6 +101,7 @@ python train_espcn.py
 ```
 
 Store the caltech dataset in the following folder:
+
 ```
 *data
 	*test
@@ -104,8 +112,11 @@ Store the caltech dataset in the following folder:
         		*...
 ```
 
-python test_image.py
+Perform image super resolution
 
+```
+python test_image.py
+```
 
 #### Style-transfer
 
