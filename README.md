@@ -3,7 +3,7 @@ This study proposed a High-Quality Integration Domain framework for pedestrian r
 
 
 
-A PyTorch implementation of NPIQE based on IEEE ACCESS paper 
+A PyTorch implementation of HQID based on IEEE ACCESS paper 
 [Multi-Source Domain Fusion Cross-Domain Pedestrian Recognition Based on High-Quality Intermediate Domains](https://ieeexplore.ieee.org/document/10188821?source=authoralert).
 ### Install
 
@@ -11,10 +11,8 @@ A PyTorch implementation of NPIQE based on IEEE ACCESS paper
 
 ```bash
 git clone https://github.com/niuyixing/NPIQE/edit/main/
-cd InternImage
 ```
 ## HCycleGAN
-Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
 ### Data Preparation
 
 1. Download the dataset.
@@ -65,8 +63,9 @@ Store the caltech dataset in the following folder:
         		*set06_V000_I00029.jpg
         		*...
 ```
+```
 python data_utils.py
-
+```
 The results are shown below:
 
 ```
@@ -88,10 +87,11 @@ The results are shown below:
             		*set06_V000_I00029.jpg
         		*...
 ```
+```
 python -m visdom.server
 
 python train_espcn.py
-
+```
 
 Store the caltech dataset in the following folder:
 ```
@@ -145,10 +145,10 @@ In writing
 ## Citation
 If you think our work is useful in your research, please consider citing:
 ```
-@inproceedings{liu2018high,
-  title={High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection},
-  author={Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, Yinan Yu},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2019}
+@inproceedings{
+  title={Multi-Source Domain Fusion Cross-Domain Pedestrian Recognition Based on High-Quality Intermediate Domains},
+  author={Yixing Niu; Wansheng Cheng; Yushan Lai; Hongzhi Zhang; Mingrui Cao; Kang Cao; Song Fan},
+  booktitle={IEEE Access},
+  year={2023}
 }
 ```
