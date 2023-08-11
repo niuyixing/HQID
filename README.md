@@ -28,12 +28,13 @@ Our super-resolution code is developed on top of [ESPCN](https://github.com/left
 For citypersons, we use the training set (2975 images) for training and test on the validation set (500 images), we assume that images and annotations are stored in  `./data/citypersons`
 
 ### Dependencies
-
-* torch                          1.10.0
-* torchnet                       0.0.4
-* numpy				 1.21.4
-* dominate			 2.7.0
-* visdom			 0.1.8.9
+We use torch version 1.10.0, torchnet version 0.0.4, numpy version 1.21.4, dominate version 2.7.0, visdom version 0.1.8.9.
+* torch                           >=1.4.0
+* torchvision	     >=0.5.0
+* dominate	     >=2.4.0
+* visdom	                     >=0.1.8.8
+* torchnet                      
+* numpy		 
 * fsspec
 * tensorboard
 * packaging
