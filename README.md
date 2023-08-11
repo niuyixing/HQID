@@ -146,7 +146,7 @@ In writing
 ## Citation
 If you think our work is useful in your research, please consider citing:
 ```
-@inproceedings{niu2023,
+@inproceedings{
   title={Multi-Source Domain Fusion Cross-Domain Pedestrian Recognition Based on High-Quality Intermediate Domains},
   author={Yixing Niu; Wansheng Cheng; Yushan Lai; Hongzhi Zhang; Mingrui Cao; Kang Cao; Song Fan},
   booktitle={IEEE Access},
