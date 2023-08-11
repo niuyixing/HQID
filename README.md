@@ -27,11 +27,27 @@ Our super-resolution code is developed on top of [ESPCN](https://github.com/left
 
 For citypersons, we use the training set (2975 images) for training and test on the validation set (500 images), we assume that images and annotations are stored in  `./data/citypersons`
 
+### Dependencies
 
+* torch                          1.10.0
+* torchnet                       0.0.4
+* numpy				 1.21.4
+* dominate			 2.7.0
+* visdom			 0.1.8.9
+* fsspec
+* tensorboard
+* packaging
+* psutil
+* pyre_extensions
+* typing_extensions
+* setuptools
+* tqdm
+* wandb
 
-## super-resolution
-Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
 ### Usage
+#### super-resolution
+Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
+
 
 
 
@@ -90,7 +106,7 @@ Store the caltech dataset in the following folder:
 python test_image.py
 
 
-## Style-transfer
+#### Style-transfer
 
 Our Style-transfer code is developed on top of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
@@ -101,9 +117,17 @@ Store the caltech and cityperson dataset in the following folder:
 		*data
 		*set00_V000_I00002.jpg
 		*...
-	*trainB
+	*testA
 		*data
 		*set00_V000_I00002.jpg
+		*...
+	*trainB
+		*data
+		*bielefeld_000000_000321_leftImg8bit.png
+		*...
+	*testB
+		*data
+		*bielefeld_000000_000321_leftImg8bit.png
 		*...
 ```
 
@@ -114,13 +138,9 @@ python test_CycleGAN.py --dataroot datasets/try   --name try  --model cycle_gan 
 cd InternImage
 ```
 
-
-Store the caltech dataset in the following folder:
-
-
-Store the caltech dataset in the following folder:
 ## NPIQE
 
+In writing
 
 ## Citation
 If you think our work is useful in your research, please consider citing:
