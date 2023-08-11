@@ -164,6 +164,7 @@ python npiqe_no_ssim.py --path="dataset\"
 Copy the original dataset without replacement into the dataset folder.
 ## Pedestrian detection
 Our Style-transfer code is developed on top of [CSP](https://github.com/liuwei16/CSP).
+
 Restore the processed image to the original dataset format：
 
 ```bash
