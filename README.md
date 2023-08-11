@@ -15,7 +15,6 @@ cd InternImage
 ```
 ## HCycleGAN
 Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
-Our Style-transfer code is developed on top of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 ### Data Preparation
 
 1. Download the dataset.
@@ -39,7 +38,7 @@ Our super-resolution code is developed on top of [ESPCN](https://github.com/left
 Store the caltech dataset in the following folder:
 
 ```
-*DATA_PATH
+*data
 	*caltech
 		*train
         		*set00_V000_I00002.jpg
@@ -54,7 +53,7 @@ python data_utils.py
 The results are shown below:
 
 ```
-*DATA_PATH
+*data
 	*train
 		*SRF_3
 			*data
@@ -79,7 +78,7 @@ python train_espcn.py
 
 Store the caltech dataset in the following folder:
 ```
-*DATA_PATH
+*data
 	*test
 		*SRF_3
 			*data
@@ -93,7 +92,34 @@ python test_image.py
 
 ## Style-transfer
 
+Our Style-transfer code is developed on top of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
 Store the caltech and cityperson dataset in the following folder:
+```
+*try
+	*trainA
+		*data
+		*set00_V000_I00002.jpg
+		*...
+	*trainB
+		*data
+		*set00_V000_I00002.jpg
+		*...
+```
+
+
+```bash
+python train_CycleGAN.py --dataroot try  --name try  --model cycle_gan --pool_size 50 --no_dropout  --crop_size 640  --preprocess crop 
+python test_CycleGAN.py --dataroot datasets/try   --name try  --model cycle_gan --phase test --no_dropout --preprocess none --load_size 640
+cd InternImage
+```
+
+
+Store the caltech dataset in the following folder:
+
+
+Store the caltech dataset in the following folder:
+## NPIQE
 
 
 ## Citation
