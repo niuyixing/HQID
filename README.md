@@ -14,7 +14,6 @@ git clone https://github.com/niuyixing/NPIQE/edit/main/
 cd InternImage
 ```
 ## HCycleGAN
-Our super-resolution code is developed on top of [ESPCN](https://github.com/leftthomas/ESPCN).
 ### Data Preparation
 
 1. Download the dataset.
